@@ -1,0 +1,21 @@
+Function adalah sebuah blok statemen yang hanya akan dijalankan saat ia dipanggil. Secara tidak sadar, selama proses belajar ini, aku telah mencoba menggunakan fungsi-fungsi dalam bahasa pemrograman Python.
+
+Fungsi len() untuk mengukur jumlah elemen dalam sebuah list dan fungsi print() untuk menampilkan pesan pada layar konsol merupakan contoh dari bentuk fungsi yang telah disediakan oleh bahasa pemrograman Python, atau dengan kata lain built-in functions.
+
+Selain fungsi yang telah disediakan oleh Python, Python mengizinkan aku untuk mendeklarasikan fungsi dalam kode yang aku tuliskan yang dikenal dengan user defined function.
+
+
+def nama_fungsi(argument):
+    statement_1
+    …
+    statement_n
+    return returned_value
+
+    
+
+Aku menuliskan dalam catatanku:
+
+nama_fungsi adalah nama untuk fungsi yang kita definisikan, memiliki aturan seperti penamaan variabel
+argument adalah variabel masukan ke fungsi, bisa tanpa variabel, satu variabel atau lebih
+statement_1 … statement_n adalah algoritma yang telah kita transfer dalam bahasa Python. Ini merupakan inti dari fungsi yang kita definisikan. Seluruh statement adalah menjorok (indent) ke dalam seperti yang pernah dipelajari pada conditioning dan looping
+return_value adalah variabel output dari fungsi kita. Bisa tanpa variabel, satu variabel, atau lebih

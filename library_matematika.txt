@@ -1,0 +1,22 @@
+Salah satu keunikan Python adalah library yang dimilikinya karena dapat di-extend dengan library yang didefinisikan oleh pengguna Python, 
+selain dari library bawaan (built-in) yang dimilikinya. 
+Untuk membuat library yang didefinisikan oleh pengguna umumnya dilakukan dengan menggunakan teknik pemrograman berorientasi obyek (object oriented programming).
+
+Tentunya secara dasar, Python tidak dapat digunakan untuk pengolahan data, komputasi saintifik, machine learning dan bahkan sistem cerdas. 
+Melalui pengembang library tentunya aku memiliki akses ke keperluan atau bidang tersebut. 
+Library ini dapat diinstal melalui command pip yang bersumber dari web python package index.
+
+Bagi yang pernah menggunakan Matlab pasti tahu ada toolbox tertentu misal untuk optimasi, pengolahan sinyal, dll. Jadi, toolbox di Matlab itu ekuivalen dengan library pada Python. 
+Bahasa pemrograman lain seperti R, PHP, GO, Java, dsb tentu juga memiliki hal yang serupa.
+
+Untuk memanggil library pada python, aku dapat menggunakan syntax:
+
+import 
+
+adalah nama library yang akan diimport untuk dapat digunakan dalam kode program yang disusun, baik library bawaan (built-in), library yang tersedia ada di web python package index 
+atau dikembangkan sendiri.
+
+Python adalah salah satu bahasa yang paling diminati untuk pengolahan data secara matematis. Untuk menggunakan fungsi-fungsi matematis yang telah disediakan oleh bahasa Python, 
+aku dapat melakukan proses import library math seperti pada potongan kode berikut:
+
+import math

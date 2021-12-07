@@ -1,0 +1,41 @@
+Setelah mempelajari bagaimana membuka/membuat sebuah berkas teks dalam Python, aku akan mempelajari sintaks untuk dapat membaca isi dari sebuah berkas. Untuk membaca isi dari sebuah teks aku dapat menggunakan potongan kode berikut.
+
+Aku akan mengasumsikan baris-baris di bawah comment merupakan isi dari “hello.txt”.
+
+Kita sedang belajar Python
+Tepatnya belajar memanipulasi berkas teks
+Memanipulasi berkas dengan Python sangatlah mudah!
+Note: Karena ada perubahan hosting file hello.txt yang tidak ditempatkan di direktori lokal sistem DQLab kamu dapat mempraktikkan bagian A1 dan A2 pada komputer kamu. Untuk itu file hello.txt dapat kamu unduh melalui https://storage.googleapis.com/dqlab-dataset/hello.txt. 
+
+ 
+
+A1. Membaca file hello.txt dengan fungsi read() dan menutup file
+
+
+Perintah ini aku gunakan untuk menutup berkas setelah selesai digunakan
+
+
+
+Akan menghasilkan output:
+
+Kita sedang belajar Python
+Tepatnya belajar memanipulasi berkas teks
+Memanipulasi berkas dengan Python sangatlah mudah!
+Selain dapat membaca dan menampung isi dari sebuah berkas secara sekaligus menggunakan fungsi read(), aku juga dapat menggunakan fungsi readline() ataupun readlines() untuk membaca isi dari suatu berkas teks. Dengan menggunakan fungsi readline(), Python akan membaca konten dari sebuah berkas secara baris per baris, dimulai dari baris paling awal.
+
+ 
+A2. Membaca file hello.txt dengan fungsi readline()
+
+
+dengan menggunakan fungsi .readline() dapat aku gunakan untuk membaca isi dari file secara tersedia dalam berkas “hello.txt” baris per baris
+
+
+
+perintah ini aku gunakan untuk menutup berkas setelah selesai digunakan
+
+
+
+akan menghasilkan output:
+
+Kita sedang belajar Python
+Tepatnya belajar memanipulasi berkas teks
